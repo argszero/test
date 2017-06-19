@@ -6,6 +6,4 @@
 
 ![](http://latex.codecogs.com/gif.latex?hidden3(x)=x+ConvStep_{d==8}(W_h4^{15*1},hidden3(x)))
 
-![](https://latex.codecogs.com/gif.latex?ConvBlock(x)%3D\left\{\begin{matrix}Dropout(hidden4(x)%2C0.4)%26during\%3B training\\ hidden4(x)%26otherwise\end{matrix}\right.)
-
-![](http://latex.codecogs.com/gif.latex?ConvBlock(x)=\left\{\begin{matrix}Dropout(hidden4(x),0.4)&during\; training\\ hidden4(x)&otherwise\end{matrix}\right.)
+![](https://latex.codecogs.com/gif.latex?ConvBlock%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7DDropout%28hidden4%28x%29%2C0.4%29%26during%5C%3B%20training%5C%5C%20hidden4%28x%29%26otherwise%5Cend%7Bmatrix%7D%5Cright.)
