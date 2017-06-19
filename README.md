@@ -1,6 +1,6 @@
-![](http://latex.codecogs.com/gif.latex?hidden1(x)=ConvStep(W_h1^{3*1},x))
+![](http://latex.codecogs.com/gif.latex?\Delta(2d)=1e4^{-\frac{2d}{depth}})
 
-![](http://latex.codecogs.com/gif.latex?hidden2(x)=x+ConvStep(W_h2^{3*1},hidden1(x)))
+![](http://latex.codecogs.com/gif.latex?timing(t,[2d,2d+1])=[sin(t\Delta(2d))||_2cos(t\Delta(2d))])
 
 ![](http://latex.codecogs.com/gif.latex?hidden3(x)=ConvStep(W_h3^{15*1},hidden2(x)))
 
